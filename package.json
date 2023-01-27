@@ -12,7 +12,7 @@
     "url": "git+https://github.com/Mari-Krukovskaya/frontend-project-44.git"
   },
   "bin": {
-       "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
   },
   "author": "Maria",
   "license": "ISC",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Mari-Krukovskaya/frontend-project-44#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "readline-sync": "^1.4.10"
   }
 }

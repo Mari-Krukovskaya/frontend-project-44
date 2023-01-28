@@ -18,4 +18,4 @@ import/extensions: # FIXME: remove when rule will be adjusted for new nodejs ver
   - error
   - ignorePackages
   - js: always
-  no-undersccore-dangle: [2,{ "allow": ["__filename", "__dirname"] }]
+  no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]

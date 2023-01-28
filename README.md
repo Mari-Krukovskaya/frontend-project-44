@@ -4,4 +4,4 @@
 
 ### Maintainability
 
-[![Hexlet Ltd. lodo](https://codeclimate.com/github/Mari-Krukovskaya/frontend-project-44/maintainability.svg)](https://api.codeclimate.com/v1/badges/8f9257a77155fd0cb6cf/maintainability)
+<a href="https://codeclimate.com/github/Mari-Krukovskaya/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/8f9257a77155fd0cb6cf/maintainability" /></a>

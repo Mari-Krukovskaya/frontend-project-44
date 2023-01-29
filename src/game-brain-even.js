@@ -15,11 +15,9 @@ export default function brainEven() {
     if (answer === qustionAnswer) {
       console.log("Correct!");
     } else if (answer !== qustionAnswer) {
-      console.log(
-        `'${qustionAnswer}' is wrong answer ;( Correct answer was "${qustionAnswer}". \nLet's try again, ${name}`
-      );
+      console.log(`"${qustionAnswer}" is wrong answer ;( Correct answer was "${qustionAnswer}". \nLet's try again, ${name}`);
       return;
     }
   }
   console.log(`Congratulations, ${name}!`);
-}
+};

@@ -8,4 +8,8 @@ https://asciinema.org/a/BCa2hqKl13olaE1EoJTO7FttS
 
 ### Start Games brain-even
 
-https://asciinema.org/a/lIJQGXuNYOhs8Am7lZviWK7oy
+https://asciinema.org/a/t4oGW4VJYAMyzSjDPPGRFz220
+
+### Start Games brain-calc
+
+https://asciinema.org/a/cd5OOL4GJjmnPc4Olubp0y1k1

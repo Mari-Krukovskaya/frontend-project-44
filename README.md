@@ -13,3 +13,7 @@ https://asciinema.org/a/t4oGW4VJYAMyzSjDPPGRFz220
 ### Start Games brain-calc
 
 https://asciinema.org/a/cd5OOL4GJjmnPc4Olubp0y1k1
+
+### Start Games brain-gcd
+
+  https://asciinema.org/a/NU7UNehgKvRFGHJHNlocL42hV

@@ -16,4 +16,4 @@ https://asciinema.org/a/cd5OOL4GJjmnPc4Olubp0y1k1
 
 ### Start Games brain-gcd
 
-  https://asciinema.org/a/NU7UNehgKvRFGHJHNlocL42hV
+https://asciinema.org/a/NU7UNehgKvRFGHJHNlocL42hV

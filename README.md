@@ -17,3 +17,8 @@ https://asciinema.org/a/cd5OOL4GJjmnPc4Olubp0y1k1
 ### Start Games brain-gcd
 
 https://asciinema.org/a/NU7UNehgKvRFGHJHNlocL42hV
+
+
+### Start Games brain-progression
+
+ https://asciinema.org/a/l6KfdOR25jA8KaQ7QN9D6a502

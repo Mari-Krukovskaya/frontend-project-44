@@ -5,12 +5,12 @@ const randomNumber = () => Math.floor(Math.random() * 50);
 
 const nod = (a, b) => {
   while (a !== b ) {
-    if(a > b) {
-      a = a - b;
-    } else {
-      b = b - a;
-    }
+ if (a > b) {
+  a -= b;
+} else {
+  b -= a;
   }
+}
   return a;
 }
 
@@ -30,4 +30,5 @@ console.log('Find the greatest common divisor of given numbers.');
   }
  }
  console.log(`Congratulations, ${name}`);
+ 
 }

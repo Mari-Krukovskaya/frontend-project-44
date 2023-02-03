@@ -7,7 +7,7 @@ const randomOperator = () => {
   const operator = ['+', '-', '*'];
   const operatorCalc = Math.floor(Math.random() * operator.length);
   const result = operator[operatorCalc];
- return result;
+  return result;
 };
 const calc = (num1, num2, operator) => {
   switch (operator) {

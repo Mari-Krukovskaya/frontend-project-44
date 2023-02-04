@@ -18,7 +18,10 @@ https://asciinema.org/a/cd5OOL4GJjmnPc4Olubp0y1k1
 
 https://asciinema.org/a/NU7UNehgKvRFGHJHNlocL42hV
 
-
 ### Start Games brain-progression
 
  https://asciinema.org/a/l6KfdOR25jA8KaQ7QN9D6a502
+
+ ### Start Games brain-prime
+
+ https://asciinema.org/a/6X7siOcmSl5tXWVEpcOweUmG3

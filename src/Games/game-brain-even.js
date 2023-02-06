@@ -1,4 +1,4 @@
-import startTheGames from './index.js';
+import startTheGames from '../index.js';
 
 const randomNumber = () => Math.ceil(Math.random() * 100);
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';

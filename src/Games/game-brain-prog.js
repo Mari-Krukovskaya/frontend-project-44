@@ -15,7 +15,7 @@ const brainGames = () => {
     return num;
   };
   const funcProgression = progression();
-  const numberRandom = randomNumber(10, 20);
+  const numberRandom = randomNumber(1, 20);
   const result = randomNumber(0, numberRandom);
   const ancwer = funcProgression[result];
   funcProgression[result] = '..';

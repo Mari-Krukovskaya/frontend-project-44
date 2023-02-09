@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "type": "module",
-  "description": "[![Actions Status](https://github.com/Mari-Krukovskaya/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Mari-Krukovskaya/frontend-project-44/actions)",
+  "description": "Mind Games is a set of five console games built on the principle of popular mobile applications for brain pumping.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,15 +26,11 @@
   },
   "homepage": "https://github.com/Mari-Krukovskaya/frontend-project-44#readme",
   "dependencies": {
-    "jest": "^29.4.1",
-    "lodash": "^4.17.21",
-    "package": "^1.0.1",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "eslint": "^8.32.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jest": "^27.2.1"
+    "eslint-plugin-import": "^2.27.5"
   }
 }

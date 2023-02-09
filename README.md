@@ -17,7 +17,9 @@
  
 ### Install:
 
-npm install and suddo npm link
+- клонировать репозиторий 
+- установить npm(команда make install из корневого каталога)
+- создать локальную связь(команда npm link, возможно запустить через sudo)
 
 ### brain-games username
 

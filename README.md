@@ -21,7 +21,7 @@ npm install and suddo npm link
 
 ### brain-games username
 
-[![ascciicast](https://asciinema.org/a/BCa2hqKl13olaE1EoJTO7FttS.svg)](https://asciinema.org/a/BCa2hqKl13olaE1EoJTO7FttS.svg)
+[![ascciicast](https://asciinema.org/a/BCa2hqKl13olaE1EoJTO7FttS.svg)](https://asciinema.org/a/BCa2hqKl13olaE1EoJTO7FttS)
 
 ### Games brain-even
 

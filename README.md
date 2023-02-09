@@ -11,36 +11,34 @@
 4. brain-progression('Арифметическая прогрессия')
 5. brain-prime('Простое ли число ?')
 
-### Requirements
+### Requirements:
 
  Node.js v18.13
- Windows11
-
+ 
 ### Install:
 
-npm install 
-suddo npm link
+npm install and suddo npm link
 
-### Start brain-games username
+### brain-games username
 
-https://asciinema.org/a/BCa2hqKl13olaE1EoJTO7FttS
+[![ascciicast](https://asciinema.org/a/BCa2hqKl13olaE1EoJTO7FttS.svg)](https://asciinema.org/a/BCa2hqKl13olaE1EoJTO7FttS.svg)
 
-### Start Games brain-even
+### Games brain-even
 
-https://asciinema.org/a/t4oGW4VJYAMyzSjDPPGRFz220
+[![ascciicast](https://asciinema.org/a/t4oGW4VJYAMyzSjDPPGRFz220.svg)](https://asciinema.org/a/t4oGW4VJYAMyzSjDPPGRFz220)
 
-### Start Games brain-calc
+### Games brain-calc
 
-https://asciinema.org/a/cd5OOL4GJjmnPc4Olubp0y1k1
+[![ascciicast](https://asciinema.org/a/cd5OOL4GJjmnPc4Olubp0y1k1.svg)](https://asciinema.org/a/cd5OOL4GJjmnPc4Olubp0y1k1)
 
-### Start Games brain-gcd
+### Games brain-gcd
 
-https://asciinema.org/a/NU7UNehgKvRFGHJHNlocL42hV
+[![ascciicast](https://asciinema.org/a/NU7UNehgKvRFGHJHNlocL42hV.svg)](https://asciinema.org/a/NU7UNehgKvRFGHJHNlocL42hV)
 
-### Start Games brain-progression
+### Games brain-progression
 
- https://asciinema.org/a/l6KfdOR25jA8KaQ7QN9D6a502
+ [![ascciicast](https://asciinema.org/a/l6KfdOR25jA8KaQ7QN9D6a502.svg)](https://asciinema.org/a/l6KfdOR25jA8KaQ7QN9D6a502)
 
- ### Start Games brain-prime
+ ### Games brain-prime
 
- https://asciinema.org/a/6X7siOcmSl5tXWVEpcOweUmG3
+ [![ascciicast](https://asciinema.org/a/6X7siOcmSl5tXWVEpcOweUmG3.svg)](https://asciinema.org/a/6X7siOcmSl5tXWVEpcOweUmG3)

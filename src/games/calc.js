@@ -1,6 +1,6 @@
 import startGame from '../index.js';
+import randomNumber from '../utils.js';
 
-const randomNumber = () => Math.round(Math.random() * 10);
 const rules = 'What is the result of the expression?';
 
 const brainGames = () => {

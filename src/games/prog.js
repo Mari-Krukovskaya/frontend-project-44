@@ -1,6 +1,6 @@
 import startGame from '../index.js';
+import randomNumber from '../utils.js';
 
-const randomNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 const rules = 'What number is missing in the progression?';
 
 const brainGames = () => {

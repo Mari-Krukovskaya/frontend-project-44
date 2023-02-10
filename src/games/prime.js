@@ -1,6 +1,6 @@
 import startGame from '../index.js';
+import randomNumber from '../utils.js';
 
-const randomNumber = () => Math.floor(Math.random() * 100);
 const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const brainGames = () => {

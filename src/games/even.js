@@ -1,6 +1,6 @@
 import startGame from '../index.js';
+import randomNumber from '../utils.js';
 
-const randomNumber = () => Math.ceil(Math.random() * 100);
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const brainGames = () => {

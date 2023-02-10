@@ -1,5 +1,6 @@
 import startGame from '../index.js';
-const randomNumber = () => Math.floor(Math.random() * 50);
+import randomNumber from '../utils.js';
+
 const rules = 'Find the greatest common divisor of given numbers.';
 
 const brainGames = () => {

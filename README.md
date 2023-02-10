@@ -13,7 +13,7 @@
 
 ### Requirements:
 
- Node.js v18.13
+ Node.js v18.13.0-linux-x64
  
 ### Install:
 

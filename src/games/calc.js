@@ -6,9 +6,8 @@ const rules = 'What is the result of the expression?';
 const brainGames = () => {
   const randomOperator = () => {
     const operator = ['+', '-', '*'];
-    const operatorCalc = Math.floor(Math.random() * operator.length);
-    const result = operator[operatorCalc];
-    return result;
+    const operatorCalc = operator[randomNumber(0, operator.length)];
+    return operatorCalc;
   };
   const calc = (num1, num2, operator) => {
     switch (operator) {
@@ -28,7 +27,7 @@ const brainGames = () => {
   const operator = randomOperator();
   const question = `${num2} ${operator} ${num1}`;
   const ancwer = calc(num1, num2, operator);
-  return [question, ancwer];
+  return [question, ancwer.toString()];
 };
 const startCalc = () => {
   startGame(rules, brainGames);

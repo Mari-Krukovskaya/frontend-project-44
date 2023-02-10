@@ -20,7 +20,7 @@ const brainGames = () => {
   const num2 = randomNumber();
   const question = `${num1} ${num2}`;
   const ancwer = nod(num1, num2);
-  return [question, ancwer];
+  return [question, ancwer.toString()];
 };
 const startGCD = () => {
   startGame(rules, brainGames);

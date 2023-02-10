@@ -15,13 +15,13 @@ const brainGames = () => {
     return num;
   };
   const funcProgression = progression();
-  const numberRandom = randomNumber(1, 20);
+  const numberRandom = randomNumber(1, 10);
   const result = randomNumber(0, numberRandom);
   const ancwer = funcProgression[result];
   funcProgression[result] = '..';
   const progArifmetica = funcProgression.join(' ');
   const question = `${progArifmetica}`;
-  return [question, ancwer];
+  return [question, ancwer.toString()];
 };
 const startProgression = () => {
   startGame(rules, brainGames);

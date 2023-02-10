@@ -10,7 +10,7 @@ const startGame = (rules, brainGames) => {
     const [question, ancwer] = brainGames();
     console.log(`Question: ${question}`);
     const correctAnswer = readlineSync.question('Your answer: ');
-    if (correctAnswer === ancwer.toString()) {
+    if (correctAnswer === ancwer) {
       console.log('Correct!');
     } else {
       console.log(`'${correctAnswer}' is wrong answer ;( Correct answer was '${ancwer}'. \nLet's try again, ${name}!`);

@@ -30,6 +30,8 @@ const brainGames = () => {
   const ancwer = calc(num1, num2, operator);
   return [question, ancwer];
 };
-export default () => {
+const startCalc = () => {
   startGame(rules, brainGames);
 };
+
+export default startCalc;

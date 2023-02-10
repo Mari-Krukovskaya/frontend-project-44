@@ -18,6 +18,8 @@ const brainGames = () => {
   const question = `${random}`;
   return [question, ancwer];
 };
-export default () => {
+const startPrime = () => {
   startGame(rules, brainGames);
 };
+
+export default startPrime;

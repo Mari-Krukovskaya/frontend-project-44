@@ -10,6 +10,8 @@ const brainGames = () => {
   return [question, ancwer];
 };
 
-export default () => {
+const startEven = () => {
   startGame(rules, brainGames);
 };
+
+export default startEven;

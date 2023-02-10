@@ -22,6 +22,8 @@ const brainGames = () => {
   const ancwer = nod(num1, num2);
   return [question, ancwer];
 };
-export default () => {
+const startGCD = () => {
   startGame(rules, brainGames);
 };
+
+export default startGCD;

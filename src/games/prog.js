@@ -23,6 +23,8 @@ const brainGames = () => {
   const question = `${progArifmetica}`;
   return [question, ancwer];
 };
-export default () => {
+const startProgression = () => {
   startGame(rules, brainGames);
 };
+
+export default startProgression;

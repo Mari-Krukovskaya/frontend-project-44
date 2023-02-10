@@ -1,4 +1,4 @@
-import startTheGames from '../index.js';
+import startGame from '../index.js';
 
 const randomNumber = () => Math.floor(Math.random() * 100);
 const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
@@ -19,5 +19,5 @@ const brainGames = () => {
   return [question, ancwer];
 };
 export default () => {
-  startTheGames(rules, brainGames);
+  startGame(rules, brainGames);
 };

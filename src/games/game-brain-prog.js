@@ -1,4 +1,4 @@
-import startTheGames from '../index.js';
+import startGame from '../index.js';
 
 const randomNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 const rules = 'What number is missing in the progression?';
@@ -24,5 +24,5 @@ const brainGames = () => {
   return [question, ancwer];
 };
 export default () => {
-  startTheGames(rules, brainGames);
+  startGame(rules, brainGames);
 };

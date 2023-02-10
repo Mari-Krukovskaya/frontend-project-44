@@ -1,4 +1,4 @@
-import startTheGames from '../index.js';
+import startGame from '../index.js';
 
 const randomNumber = () => Math.round(Math.random() * 10);
 const rules = 'What is the result of the expression?';
@@ -31,5 +31,5 @@ const brainGames = () => {
   return [question, ancwer];
 };
 export default () => {
-  startTheGames(rules, brainGames);
+  startGame(rules, brainGames);
 };

@@ -1,12 +1,12 @@
 import startGame from '../index.js';
-import randomNumber from '../utils.js';
+import getRandomNumber from '../utils.js';
 
 const rules = 'What is the result of the expression?';
 
 const brainGames = () => {
   const randomOperator = () => {
     const operator = ['+', '-', '*'];
-    const operatorCalc = operator[randomNumber(0, operator.length)];
+    const operatorCalc = operator[getRandomNumber(0, operator.length)];
     return operatorCalc;
   };
   const calc = (num1, num2, operator) => {
@@ -22,8 +22,8 @@ const brainGames = () => {
     }
     return operator;
   };
-  const num1 = randomNumber();
-  const num2 = randomNumber();
+  const num1 = getRandomNumber();
+  const num2 = getRandomNumber();
   const operator = randomOperator();
   const question = `${num2} ${operator} ${num1}`;
   const ancwer = calc(num1, num2, operator);

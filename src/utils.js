@@ -1,7 +1,4 @@
-const maxRandomNum = 100;
-const minrandomNum = 0;
-function randomNumber(max = maxRandomNum, min = minrandomNum) {
-  return Math.floor(Math.random() * (max - min) + min);
-}
 
-export default randomNumber;
+export default (max = 100, min = 0) => Math.floor(Math.random() * (max - min) + min);
+
+

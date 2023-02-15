@@ -18,8 +18,8 @@ const getRound = () => {
   const num1 = getRandomNumber();
   const num2 = getRandomNumber();
   const question = `${num1} ${num2}`;
-  const answer = nod(num1, num2);
-  return [question, answer.toString()];
+  const correctAnswer = nod(num1, num2);
+  return [question, correctAnswer.toString()];
 };
 
 export { rule, getRound};

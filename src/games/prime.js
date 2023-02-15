@@ -13,9 +13,9 @@ const getRound = () => {
   };
   const random = getRandomNumber();
   const randomPrime = prime(random);
-  const answer = randomPrime ? 'yes' : 'no';
+  const correctAnswer = randomPrime ? 'yes' : 'no';
   const question = `${random}`;
-  return [question, answer];
+  return [question, correctAnswer];
 };
 
 export {rule, getRound};

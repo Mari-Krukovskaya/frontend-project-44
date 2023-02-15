@@ -17,10 +17,10 @@ const getRound = () => {
   const funcProgression = progression();
   const numberRandom = getRandomNumber(1, 10);
   const result = getRandomNumber(0, numberRandom);
-  const answer = funcProgression[result];
+  const correctAnswer = funcProgression[result];
   funcProgression[result] = '..';
   const progArifmetica = funcProgression.join(' ');
   const question = `${progArifmetica}`;
-  return [question, answer.toString()];
+  return [question, correctAnswer.toString()];
 };
 export {rule, getRound};

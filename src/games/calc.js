@@ -25,8 +25,8 @@ const getRound = () => {
   const num2 = getRandomNumber();
   const operator = randomOperator();
   const question = `${num2} ${operator} ${num1}`;
-  const answer = calc(num1, num2, operator);
-  return [question, answer.toString()];
+  const correctAnswer = calc(num1, num2, operator);
+  return [question, correctAnswer.toString()];
 };
 
 export { rule, getRound };

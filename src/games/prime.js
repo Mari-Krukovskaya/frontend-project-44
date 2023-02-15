@@ -1,7 +1,7 @@
 import startGame from '../index.js';
 import getRandomNumbe from '../utils.js';
 
-const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const brainGames = () => {
   const prime = (n) => {
@@ -14,12 +14,12 @@ const brainGames = () => {
   };
   const random = getRandomNumbe();
   const randomPrime = prime(random);
-  const ancwer = randomPrime ? 'yes' : 'no';
+  const answer = randomPrime ? 'yes' : 'no';
   const question = `${random}`;
-  return [question, ancwer];
+  return [question, answer];
 };
 const startPrime = () => {
-  startGame(rules, brainGames);
+  startGame(rule, brainGames);
 };
 
 export default startPrime;

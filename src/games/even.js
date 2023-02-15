@@ -1,17 +1,17 @@
 import startGame from '../index.js';
 import getRandomNumbe from '../utils.js';
 
-const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
+const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const brainGames = () => {
   const random = getRandomNumbe();
-  const ancwer = random % 2 === 0 ? 'yes' : 'no';
+  const answer = random % 2 === 0 ? 'yes' : 'no';
   const question = `${random}`;
-  return [question, ancwer];
+  return [question, answer];
 };
 
 const startEven = () => {
-  startGame(rules, brainGames);
+  startGame(rule, brainGames);
 };
 
 export default startEven;

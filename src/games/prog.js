@@ -1,7 +1,7 @@
 import startGame from '../index.js';
 import getRandomNumbe from '../utils.js';
 
-const rules = 'What number is missing in the progression?';
+const rule = 'What number is missing in the progression?';
 
 const brainGames = () => {
   const progression = () => {
@@ -17,14 +17,14 @@ const brainGames = () => {
   const funcProgression = progression();
   const numberRandom = getRandomNumbe(1, 10);
   const result = getRandomNumbe(0, numberRandom);
-  const ancwer = funcProgression[result];
+  const answer = funcProgression[result];
   funcProgression[result] = '..';
   const progArifmetica = funcProgression.join(' ');
   const question = `${progArifmetica}`;
-  return [question, ancwer.toString()];
+  return [question, answer.toString()];
 };
 const startProgression = () => {
-  startGame(rules, brainGames);
+  startGame(rule, brainGames);
 };
 
 export default startProgression;

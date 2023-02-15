@@ -3,7 +3,7 @@ import getRandomNumber from '../utils.js';
 
 const rule = 'What is the result of the expression?';
 
-const brainGames = () => {
+const getRound = () => {
   const randomOperator = () => {
     const operator = ['+', '-', '*'];
     const operatorCalc = operator[getRandomNumber(0, operator.length)];
@@ -30,7 +30,7 @@ const brainGames = () => {
   return [question, answer.toString()];
 };
 const startCalc = () => {
-  startGame(rule, brainGames);
+  startGame(rule, getRound);
 };
 
 export default startCalc;

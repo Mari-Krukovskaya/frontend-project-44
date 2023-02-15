@@ -1,13 +1,13 @@
 import startGame from '../index.js';
-import getRandomNumbe from '../utils.js';
+import getRandomNumber from '../utils.js';
 
 const rule = 'What number is missing in the progression?';
 
-const brainGames = () => {
+const getRound = () => {
   const progression = () => {
-    const progressionLength = getRandomNumbe(10, 20);
-    const progressionNumber = getRandomNumbe(1, 20);
-    const count = getRandomNumbe(2, 5);
+    const progressionLength = getRandomNumber(10, 20);
+    const progressionNumber = getRandomNumber(1, 20);
+    const count = getRandomNumber(2, 5);
     const num = [progressionNumber];
     for (let i = 0; num.length <= progressionLength; i += 1) {
       num.push(num[i] + count);
@@ -15,8 +15,8 @@ const brainGames = () => {
     return num;
   };
   const funcProgression = progression();
-  const numberRandom = getRandomNumbe(1, 10);
-  const result = getRandomNumbe(0, numberRandom);
+  const numberRandom = getRandomNumber(1, 10);
+  const result = getRandomNumber(0, numberRandom);
   const answer = funcProgression[result];
   funcProgression[result] = '..';
   const progArifmetica = funcProgression.join(' ');
@@ -24,7 +24,7 @@ const brainGames = () => {
   return [question, answer.toString()];
 };
 const startProgression = () => {
-  startGame(rule, brainGames);
+  startGame(rule, getRound);
 };
 
 export default startProgression;

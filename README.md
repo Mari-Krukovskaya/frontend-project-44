@@ -21,26 +21,26 @@
 - установить `npm`(команда `make install` из корневого каталога)
 - создать локальную связь(команда `npm link`, возможно запустить через `sudo`)
 
-### brain-games username
+### brain-game username
 
 [![ascciicast](https://asciinema.org/a/BCa2hqKl13olaE1EoJTO7FttS.svg)](https://asciinema.org/a/BCa2hqKl13olaE1EoJTO7FttS)
 
-### Games brain-even
+### Game brain-even
 
 [![ascciicast](https://asciinema.org/a/t4oGW4VJYAMyzSjDPPGRFz220.svg)](https://asciinema.org/a/t4oGW4VJYAMyzSjDPPGRFz220)
 
-### Games brain-calc
+### Game brain-calc
 
 [![ascciicast](https://asciinema.org/a/cd5OOL4GJjmnPc4Olubp0y1k1.svg)](https://asciinema.org/a/cd5OOL4GJjmnPc4Olubp0y1k1)
 
-### Games brain-gcd
+### Game brain-gcd
 
 [![ascciicast](https://asciinema.org/a/NU7UNehgKvRFGHJHNlocL42hV.svg)](https://asciinema.org/a/NU7UNehgKvRFGHJHNlocL42hV)
 
-### Games brain-progression
+### Game brain-progression
 
  [![ascciicast](https://asciinema.org/a/l6KfdOR25jA8KaQ7QN9D6a502.svg)](https://asciinema.org/a/l6KfdOR25jA8KaQ7QN9D6a502)
 
- ### Games brain-prime
+ ### Game brain-prime
 
  [![ascciicast](https://asciinema.org/a/6X7siOcmSl5tXWVEpcOweUmG3.svg)](https://asciinema.org/a/6X7siOcmSl5tXWVEpcOweUmG3)

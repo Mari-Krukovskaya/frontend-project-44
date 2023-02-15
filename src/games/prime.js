@@ -18,4 +18,4 @@ const getRound = () => {
   return [question, correctAnswer];
 };
 
-export {rule, getRound};
+export { rule, getRound };

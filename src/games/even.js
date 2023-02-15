@@ -9,8 +9,4 @@ const getRound = () => {
   return [question, correctAnswer];
 };
 
-
 export { rule, getRound };
-
-
-

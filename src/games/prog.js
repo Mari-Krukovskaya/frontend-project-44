@@ -1,4 +1,3 @@
-
 import getRandomNumber from '../utils.js';
 
 const rule = 'What number is missing in the progression?';
@@ -23,4 +22,4 @@ const getRound = () => {
   const question = `${progArifmetica}`;
   return [question, correctAnswer.toString()];
 };
-export {rule, getRound};
+export { rule, getRound };

@@ -22,4 +22,4 @@ const getRound = () => {
   return [question, correctAnswer.toString()];
 };
 
-export { rule, getRound};
+export { rule, getRound };

@@ -1,4 +1,3 @@
-import startGame from '../index.js';
 import getRandomNumber from '../utils.js';
 
 const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
@@ -10,8 +9,8 @@ const getRound = () => {
   return [question, answer];
 };
 
-const startEven = () => {
-  startGame(rule, getRound);
-};
 
-export default startEven;
+export { rule, getRound };
+
+
+

@@ -1,4 +1,4 @@
-import startGame from '../index.js';
+
 import getRandomNumber from '../utils.js';
 
 const rule = 'What number is missing in the progression?';
@@ -23,8 +23,4 @@ const getRound = () => {
   const question = `${progArifmetica}`;
   return [question, answer.toString()];
 };
-const startProgression = () => {
-  startGame(rule, getRound);
-};
-
-export default startProgression;
+export {rule, getRound};

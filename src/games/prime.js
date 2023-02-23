@@ -1,6 +1,9 @@
 import getRandomNumber from '../utils.js';
+import startGame from '../index.js';
 
-const prime = (n) => {
+const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+
+const isPrime = (n) => {
   for (let i = 2; i < n; i += 1) {
     if (n % i === 0) {
       return false;
@@ -9,14 +12,12 @@ const prime = (n) => {
   return n > 1;
 };
 
-const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-
 const getRound = () => {
-  const random = getRandomNumber();
-  const randomPrime = prime(random);
-  const correctAnswer = randomPrime ? 'yes' : 'no';
-  const question = `${random}`;
+  const question = getRandomNumber();
+  const correctAnswer = isPrime(question) ? 'yes' : 'no';
   return [question, correctAnswer];
 };
 
-export { rule, getRound };
+const startIsPrime = () => startGame(rule, getRound);
+
+export default startIsPrime;

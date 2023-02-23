@@ -20,8 +20,7 @@ const getRound = () => {
   const result = getRandomNumber(0, numberRandom);
   const correctAnswer = funcProgression[result].toString();
   funcProgression[result] = '..';
-  const progArifmetica = funcProgression.join(' ');
-  const question = `${progArifmetica}`;
+  const question = funcProgression.join(' ');
   return [question, correctAnswer];
 };
 

@@ -19,8 +19,8 @@ const calculate = (x, y, operator) => {
 
 const getRound = () => {
   const operator = operators[getRandomNumber(0, operators.length - 1)];
-  const num1 = getRandomNumber(0, 20);
-  const num2 = getRandomNumber(0, 20);
+  const num1 = getRandomNumber(0, 50);
+  const num2 = getRandomNumber(0, 50);
   const question = `${num2} ${operator} ${num1}`;
   const correctAnswer = calculate(num1, num2, operator).toString();
   return [question, correctAnswer];

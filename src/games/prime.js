@@ -3,18 +3,23 @@ import startGame from '../index.js';
 
 const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const isPrime = (n) => {
-  for (let i = 2; i < n; i += 1) {
-    if (n % i === 0) {
+const isPrime = (num) => {
+  if (num < 2) {
+    return false;
+  }
+  for (let i = 2; i <= num / 2; i += 1) {
+    if (num % i === 0) {
       return false;
     }
   }
-  return n > 1;
+
+  return true;
 };
 
 const getRound = () => {
-  const question = getRandomNumber();
-  const correctAnswer = isPrime(question) ? 'yes' : 'no';
+  const num = getRandomNumber();
+  const correctAnswer = isPrime(num) ? 'yes' : 'no';
+  const question = num.toString();
   return [question, correctAnswer];
 };
 

@@ -3,24 +3,25 @@ import startGame from '../index.js';
 
 const rule = 'What number is missing in the progression?';
 
-const arithmeticProgression = () => {
-  const progressionLength = getRandomNumber(10, 20);
-  const progressionNumber = getRandomNumber(1, 20);
-  const count = getRandomNumber(2, 5);
-  const num = [progressionNumber];
-  for (let i = 0; num.length <= progressionLength; i += 1) {
-    num.push(num[i] + count);
+const generateSequence = (start, step, length) => {
+  const progression = [];
+  let progressionNumber = start;
+  for (let i = 0; i <= length; i += 1) {
+    progression.push(progressionNumber);
+    progressionNumber += step;
   }
-  return num;
+  return progression;
 };
 
 const getRound = () => {
-  const funcProgression = arithmeticProgression();
-  const numberRandom = getRandomNumber(1, 10);
-  const result = getRandomNumber(0, numberRandom);
-  const correctAnswer = funcProgression[result].toString();
-  funcProgression[result] = '..';
-  const question = funcProgression.join(' ');
+  const progLength = getRandomNumber(10, 6);
+  const firstNum = getRandomNumber();
+  const progStep = getRandomNumber(10, 3);
+  const progression = generateSequence(progLength, firstNum, progStep);
+  const index = getRandomNumber(0, progLength - 1);
+  const correctAnswer = progression[index];
+  progression[index] = '..';
+  const question = progression.join(' ');
   return [question, correctAnswer];
 };
 

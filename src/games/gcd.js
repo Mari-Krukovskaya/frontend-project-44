@@ -3,7 +3,7 @@ import startGame from '../index.js';
 
 const rule = 'Find the greatest common divisor of given numbers.';
 
-const getGcd = (x, y) => (!y ? x : getGcd(y, x % y));
+const getGcd = (x, y) => ((x % y) ? getGcd(y, x % y) : Math.abs(y));
 
 const getRound = () => {
   const num1 = getRandomNumber(1, 50);

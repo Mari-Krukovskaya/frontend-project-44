@@ -14,12 +14,12 @@ const generateSequence = (start, step, length) => {
 };
 
 const getRound = () => {
-  const progLength = getRandomNumber(10, 6);
-  const firstNum = getRandomNumber();
-  const progStep = getRandomNumber(10, 3);
-  const progression = generateSequence(progLength, firstNum, progStep);
-  const index = getRandomNumber(0, progLength - 1);
-  const correctAnswer = progression[index];
+  const length = 10;
+  const start = getRandomNumber(10, 20);
+  const progStep = getRandomNumber(5, 10);
+  const progression = generateSequence(length, start, progStep);
+  const index = getRandomNumber(0, progression.length - 1);
+  const correctAnswer = progression[index].toString();
   progression[index] = '..';
   const question = progression.join(' ');
   return [question, correctAnswer];

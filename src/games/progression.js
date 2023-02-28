@@ -1,23 +1,22 @@
 import getRandomNumber from '../utils.js';
 import startGame from '../index.js';
 
+const length = 10;
 const rule = 'What number is missing in the progression?';
 
-const generateSequence = (start, step, length) => {
+const createProgression = (length, start, step) => {
   const progression = [];
-  let progressionNumber = start;
   for (let i = 0; i <= length; i += 1) {
-    progression.push(progressionNumber);
-    progressionNumber += step;
+    progression.push(i * step + start); 
   }
+
   return progression;
 };
 
 const getRound = () => {
-  const length = 10;
   const start = getRandomNumber(10, 20);
-  const progStep = getRandomNumber(5, 10);
-  const progression = generateSequence(length, start, progStep);
+  const step = getRandomNumber(5, 10);
+  const progression = createProgression(length, start, step);
   const index = getRandomNumber(0, progression.length - 1);
   const correctAnswer = progression[index].toString();
   progression[index] = '..';
